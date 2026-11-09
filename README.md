@@ -1,12 +1,12 @@
 # Retail Sales & Customer Intelligence (PostgreSQL)
 
-This is an SQL analysis of **Duka Smart Electronics**, a fictional Kenyan retailer that sells phones, laptops,
+This is an SQL analysis of **Duka Smart Electronics**, a  Kenyan retailer that sells phones, laptops,
 accessories, TVs and home appliances in ten towns. The data covers **150 customers and 800 orders
 from January 2025 to September 2026**.
 I set up the database, answered 46 business questions in SQL,
 and turned the results into recommendations for management.
 
-All people and companies in the data are fictional.
+
 
 ## What the project covers
 
@@ -69,7 +69,7 @@ psql -U postgres -d retail_analytics -f schema.sql
 psql -U postgres -d retail_analytics -f queries.sql
 ```
 
-In pgAdmin or DBeaver, open `queries.sql` and run one question at a time, since each is numbered and
+In  DBeaver, open `queries.sql` and run one question at a time, since each is numbered and
 separate. Make sure you are connected to `retail_analytics`.
 
 ## Headline results
